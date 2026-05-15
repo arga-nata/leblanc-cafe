@@ -14,7 +14,7 @@
 
         <div class="relative z-20 flex flex-col px-10 md:px-20 max-w-4xl">
             <h1 class="font-heading text-6xl text-p5-white uppercase tracking-tighter">
-                Welcome to Café</span> <span class="text-p5-red">Leblanc</span>
+                Welcome to Café <span class="text-p5-red">Leblanc</span>
             </h1>
 
             <p class="font-body text-p5-grey mt-6 text-2xl leading-relaxed">
@@ -29,5 +29,8 @@
                 </a>
             </div>
         </div>
+
+        <div class="mt-32"></div>
+
     </div>
 </x-layout>

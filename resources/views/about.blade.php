@@ -3,7 +3,7 @@
         About the Café
     </x-slot:judul>
 
-    <div class="relative min-h-screen flex items-center justify-center py-20 overflow-hidden">
+    <div class="relative min-h-screen flex flex-col py-24 overflow-hidden">
 
         <div class="fixed inset-0 z-0">
             <img src="{{ asset('assets/images/leblanc-bg.jpg') }}" class="w-full h-full object-cover"

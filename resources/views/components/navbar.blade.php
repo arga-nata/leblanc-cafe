@@ -13,7 +13,12 @@
             <x-nav-link href="/home" :active="request()->is('home')">
                 Home
             </x-nav-link>
-            <x-nav-link href="/list" :active="request()->is('list')">List</x-nav-link>
+            <x-nav-link href="/list" :active="request()->is('list')">
+                List
+            </x-nav-link>
+            <x-nav-link href="/order" :active="request()->is('order')">
+                Order
+            </x-nav-link>
             <x-nav-link href="/about" :active="request()->is('about')">
                 About
             </x-nav-link>
