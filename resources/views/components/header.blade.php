@@ -1,7 +1,11 @@
-<div class="bg-p5-black py-10 border-b-3 border-p5-red shadow-2xl relative">
-    <div class="flex items-center justify-center gap-4">
-        <h1 class="text-white text-2xl tracking-tighter uppercase italic text-center font-heading font-black">
-            {{ $slot }}</h1>
-        <img src="{{ asset('assets/images/next.png') }}" class="h-10 w-auto object-contain" alt="icon">
+<div class="absolute top-5 left-5 z-50">
+
+    <div class="bg-p5-black border-2 border-p5-red rounded-full px-4 py-1 shadow-md flex items-center gap-2">
+
+        <iconify-icon icon="mdi:coffee" class="text-p5-red text-base"></iconify-icon>
+
+        <h1 class="text-white text-xs md:text-sm tracking-widest capitalize italic font-heading font-bold">
+            {{ $slot }}
+        </h1>
     </div>
 </div>

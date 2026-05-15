@@ -30,6 +30,9 @@
     <footer class="py-8 text-center text-p5-grey text-sm border-t border-p5-dark-red/50">
         &copy; {{ date('Y') }} Leblanc Cafe - Persona 5.
     </footer>
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
 </body>
 
 

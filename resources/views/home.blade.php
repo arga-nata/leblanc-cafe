@@ -1,6 +1,6 @@
 <x-layout>
     <x-slot:judul>
-        Leblanc Cafe | Home
+        Home Page
     </x-slot:judul>
 
     <div class="relative min-h-screen flex flex-col items-center justify-center py-24 overflow-hidden">
@@ -14,7 +14,7 @@
 
         <div class="relative z-20 flex flex-col items-center justify-center text-center px-4">
             <h1 class="font-heading text-7xl text-p5-white shadow-p5 uppercase italic tracking-tighter">
-                Welcome to <span class="text-p5-red">Leblanc</span> Cafe
+                Welcome to Café</span> <span class="text-p5-red">Leblanc</span>
             </h1>
 
             <p class="font-body text-p5-grey mt-6 text-2xl max-w-2xl leading-relaxed">
