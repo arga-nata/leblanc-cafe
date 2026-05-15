@@ -1,20 +1,17 @@
 <x-layout>
     <x-slot:judul>
-        About Leblanc
+        About the Café
     </x-slot:judul>
 
     <div class="relative min-h-screen flex items-center justify-center py-20 overflow-hidden">
 
-        <!-- Layer 1: Background Image (Fixed for Full Screen) -->
         <div class="fixed inset-0 z-0">
             <img src="{{ asset('assets/images/leblanc-bg.jpg') }}" class="w-full h-full object-cover"
                 alt="Leblanc Background">
         </div>
 
-        <!-- Layer 2: Dark Overlay (Fixed for Full Screen) -->
         <div class="fixed inset-0 z-10 bg-p5-black/70"></div>
 
-        <!-- Layer 3: Content (Wrapped in Container for Centering) -->
         <div class="relative z-20 container mx-auto px-4">
             <div class="max-w-2xl mx-auto bg-p5-black/60 border-l-8 border-p5-red p-8 shadow-2xl backdrop-blur-md">
 
@@ -40,7 +37,8 @@
                         </div>
 
                         <div class="pt-4">
-                            <span class="text-p5-red font-bold uppercase text-xs tracking-widest block mb-2">Story</span>
+                            <span
+                                class="text-p5-red font-bold uppercase text-xs tracking-widest block mb-2">Story</span>
                             <p class="text-p5-grey leading-relaxed italic">
                                 "{{ $info['description'] }}"
                             </p>
