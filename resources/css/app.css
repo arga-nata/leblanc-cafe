@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+/* https://www.gamefontlibrary.com/games/persona-3-reload */
+
+@font-face {
+    font-family: "FontHeading";
+    src: url("../fonts/rodin-b.otf") format("opentype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "FontHeading";
+    src: url("../fonts/rodin-db.otf") format("opentype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "FontHeading";
+    src: url("../fonts/rodin-eb.otf") format("opentype");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "FontBody";
+    src: url("../fonts/skip-b.otf") format("opentype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "FontLogo";
+    src: url("../fonts/bmspace.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.shadow-p5 {
+    filter: drop-shadow(0 5px 0 #d92323);
+}
+
+@theme {
+    --font-logo: "FontLogo", sans-serif;
+    --font-heading: "FontHeading", sans-serif;
+    --font-body: "FontBody", sans-serif;
+
+    --color-p5-black: #0d0d0d;
+    --color-p5-red: #d92323;
+    --color-p5-dark-red: #732424;
+    --color-p5-grey: #7b7b7b;
+    --color-p5-white: #ffffff;
+}
