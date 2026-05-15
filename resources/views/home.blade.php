@@ -1,6 +1,6 @@
 <x-layout>
     <x-slot:judul>
-        The Sanctuary
+        Leblanc Cafe | Home
     </x-slot:judul>
 
     <div class="relative min-h-screen flex flex-col items-center justify-center py-24 overflow-hidden">

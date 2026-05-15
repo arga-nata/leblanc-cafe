@@ -1,15 +1,16 @@
-<nav class="bg-p5-black border-b-4 border-p5-red">
-    <div class="mx-auto flex items-center h-16 px-4 justify-between">
-        <div class="text-p5-white">
-            <p class="uppercase tracking-tight font-logo">Leblanc Cafe</p>
+<nav class="bg-p5-black border-b-3 border-p5-red">
+    <div class="mx-auto flex items-center py-3 px-4 justify-between">
+        <div class="flex items-center">
+            <a href="/home">
+                <img src="{{ asset('assets/images/logo.png') }}" alt="Leblanc Cafe Logo"
+                    class="h-15 w-auto object-contain">
+            </a>
         </div>
         <div class="flex gap-6">
             <x-nav-link href="/home" :active="request()->is('home')">
                 Home
             </x-nav-link>
-            <x-nav-link href="/archives" :active="request()->is('archives')">
-                Archives
-            </x-nav-link>
+            <x-nav-link href="/list" :active="request()->is('list')">List</x-nav-link>
             <x-nav-link href="/about" :active="request()->is('about')">
                 About
             </x-nav-link>
