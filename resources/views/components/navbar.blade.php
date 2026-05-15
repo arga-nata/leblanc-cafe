@@ -1,4 +1,4 @@
-<nav class="bg-p5-black border-b-2 border-p5-red">
+<nav class="bg-p5-black border-b-2 border-p5-red sticky top-0 z-50">
     <div class="mx-auto flex items-center py-3 px-4 justify-between">
         <div class="flex items-center">
             <a href="/home" class="flex items-center gap-3">

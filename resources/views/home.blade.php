@@ -5,12 +5,12 @@
 
     <div class="relative min-h-screen flex flex-col items-center justify-center py-24 overflow-hidden">
 
-        <div class="absolute inset-0 z-0">
+        <div class="fixed inset-0 z-0">
             <img src="{{ asset('assets/images/leblanc-bg.jpg') }}" class="w-full h-full object-cover"
                 alt="Leblanc Background">
         </div>
 
-        <div class="absolute inset-0 z-10 bg-p5-black/70"></div>
+        <div class="fixed inset-0 z-10 bg-p5-black/70"></div>
 
         <div class="relative z-20 flex flex-col items-center justify-center text-center px-4">
             <h1 class="font-heading text-7xl text-p5-white shadow-p5 uppercase italic tracking-tighter">
