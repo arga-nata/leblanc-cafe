@@ -3,21 +3,24 @@
         Café Leblanc: A Quiet Corner
     </x-slot:judul>
 
-    <div class="relative min-h-screen flex flex-col py-24 overflow-hidden">
+    <div class="relative min-h-screen flex flex-col py-24">
 
+        {{-- Leblanc Background --}}
         <div class="fixed inset-0 z-0">
             <img src="{{ asset('assets/images/leblanc-bg.jpg') }}" class="w-full h-full object-cover"
                 alt="Leblanc Background">
         </div>
 
+        {{-- Brightness 70 --}}
         <div class="fixed inset-0 z-10 bg-p5-black/70"></div>
 
-        <div class="relative z-20 flex flex-col px-10 md:px-20 max-w-4xl">
+        {{-- Banner? --}}
+        <div class="relative z-20 flex flex-col px-10 max-w-4xl">
             <h1 class="font-heading text-6xl text-p5-white uppercase tracking-tighter">
                 Welcome to Café <span class="text-p5-red">Leblanc</span>
             </h1>
 
-            <p class="font-body text-p5-grey mt-6 text-2xl leading-relaxed">
+            <p class="font-body text-p5-grey mt-5 text-2xl leading-relaxed">
                 A quiet corner in Yongen-Jaya. <br>
                 <span class="text-p5-white font-bold">Savor the silence, taste the secret.</span>
             </p>
@@ -30,6 +33,7 @@
             </div>
         </div>
 
+        {{-- WIP --}}
         <div class="mt-32"></div>
 
     </div>
