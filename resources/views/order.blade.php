@@ -7,17 +7,16 @@
 
         {{-- Leblanc Background --}}
         <div class="fixed inset-0 z-0">
-            <img src="{{ asset('assets/images/leblanc-bg.jpg') }}" class="w-full h-full object-cover"
-                alt="Leblanc Background">
+            <img src="{{ asset('assets/images/coba.gif') }}" class="w-full h-full object-cover" alt="Leblanc Background">
         </div>
 
-        {{-- Brightness 70 --}}
-        <div class="fixed inset-0 z-10 bg-p5-black/70"></div>
+        {{-- Brightness 60 --}}
+        <div class="fixed inset-0 z-10 bg-p5-black/60"></div>
 
         <div class="relative z-20 container mx-auto px-10">
 
             {{-- Menu --}}
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-5">
 
                 @foreach ($foods as $f)
                     <div
@@ -39,7 +38,7 @@
             {{-- Persona 5 Chatbox ref: http://www.p5generator.com/ --}}
             <div class="w-full flex justify-center items-end mt-25">
 
-                <div class="relative w-full min-h-30 bg-p5-black/80 border-t-4 border-p5-red p-5 shadow-2xl">
+                <div class="relative w-full min-h-40 bg-p5-black border-t-4 border-p5-red p-5 shadow-2xl">
 
                     {{-- Sojiro  --}}
                     <div class="absolute -top-20 left-10">

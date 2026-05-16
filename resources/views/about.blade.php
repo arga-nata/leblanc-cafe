@@ -7,12 +7,11 @@
 
         {{-- Leblanc Background --}}
         <div class="fixed inset-0 z-0">
-            <img src="{{ asset('assets/images/leblanc-bg.jpg') }}" class="w-full h-full object-cover"
-                alt="Leblanc Background">
+            <img src="{{ asset('assets/images/coba.gif') }}" class="w-full h-full object-cover" alt="Leblanc Background">
         </div>
 
-        {{-- Brightness 70 --}}
-        <div class="fixed inset-0 z-10 bg-p5-black/70"></div>
+        {{-- Brightness 60 --}}
+        <div class="fixed inset-0 z-10 bg-p5-black/60"></div>
 
         <div class="relative z-20 container mx-auto px-10">
 
