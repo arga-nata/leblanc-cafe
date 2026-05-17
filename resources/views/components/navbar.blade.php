@@ -19,7 +19,7 @@
                 Home
             </x-nav-link>
             <x-nav-link href="/list" :active="request()->is('list')">
-                List
+                Community
             </x-nav-link>
             <x-nav-link href="/order" :active="request()->is('order')">
                 Order

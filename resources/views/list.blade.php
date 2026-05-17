@@ -7,7 +7,7 @@
 
             {{-- Leblanc Background --}}
             <div class="fixed inset-0 z-0">
-                <img src="{{ asset('assets/images/coba.gif') }}" class="w-full h-full object-cover"
+                <img src="{{ asset('assets/images/step-inside.jpg') }}" class="w-full h-full object-cover"
                     alt="Leblanc Background">
             </div>
 
@@ -21,7 +21,7 @@
                     @foreach ($list as $person)
                         {{-- Card --}}
                         <div
-                            class="bg-p5-black/60 border-l-4 border-p5-red p-5 shadow-xl hover:scale-110 transition-all duration-300 cursor-pointer">
+                            class="bg-p5-black/60 border-l-4 border-p5-red p-5 shadow-xl hover:bg-p5-black/80 transition-all duration-300 cursor-pointer">
 
                             <div class="flex flex-col md:flex-row gap-6 items-start">
 

@@ -77,37 +77,34 @@
                     <div class="text-p5-red text-4xl mb-4">
                         <iconify-icon icon="mdi:music-note" class="w-10 h-10"></iconify-icon>
                     </div>
-                    <h3 class="font-heading text-white text-xl uppercase mb-3">C</h3>
+                    <h3 class="font-heading text-white text-xl uppercase mb-3">Late-Night Jazz</h3>
                     <p class="font-body text-p5-grey text-sm leading-relaxed italic">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum a, minus corporis ut repudiandae
-                        sint natus. Ipsam corrupti, esse nisi suscipit possimus illum molestias. Culpa et rerum harum
-                        veniam laborum!
+                        Soft jazz echoes through the café as the city slowly falls asleep.
+                        The warm atmosphere of Leblanc offers a rare moment of peace away from the chaos of Tokyo.
                     </p>
                 </div>
 
                 <div
                     class="bg-p5-black/60 border-t-2 border-p5-red p-8 shadow-xl transition-all duration-300 hover:bg-p5-black/80">
                     <div class="text-p5-red text-4xl mb-4">
-                        <iconify-icon icon="mdi:music-note" class="w-10 h-10"></iconify-icon>
+                        <iconify-icon icon="mdi:coffee" class="w-10 h-10"></iconify-icon>
                     </div>
-                    <h3 class="font-heading text-white text-xl uppercase mb-3">C</h3>
+                    <h3 class="font-heading text-white text-xl uppercase mb-3">Signature Brew</h3>
                     <p class="font-body text-p5-grey text-sm leading-relaxed italic">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum a, minus corporis ut repudiandae
-                        sint natus. Ipsam corrupti, esse nisi suscipit possimus illum molestias. Culpa et rerum harum
-                        veniam laborum!
+                        Every cup is carefully prepared by Sojiro Sakura himself,
+                        blending rich aroma and deep flavor into the perfect evening companion.
                     </p>
                 </div>
 
                 <div
                     class="bg-p5-black/60 border-t-2 border-p5-red p-8 shadow-xl transition-all duration-300 hover:bg-p5-black/80">
                     <div class="text-p5-red text-4xl mb-4">
-                        <iconify-icon icon="mdi:music-note" class="w-10 h-10"></iconify-icon>
+                        <iconify-icon icon="material-symbols:japanese-curry" class="w-10 h-10"></iconify-icon>
                     </div>
-                    <h3 class="font-heading text-white text-xl uppercase mb-3">C</h3>
+                    <h3 class="font-heading text-white text-xl uppercase mb-3">Homemade Curry</h3>
                     <p class="font-body text-p5-grey text-sm leading-relaxed italic">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum a, minus corporis ut repudiandae
-                        sint natus. Ipsam corrupti, esse nisi suscipit possimus illum molestias. Culpa et rerum harum
-                        veniam laborum!
+                        Leblanc’s famous curry is slow-cooked with care,
+                        creating the comforting flavor loved by every regular customer.
                     </p>
                 </div>
 

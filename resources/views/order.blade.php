@@ -16,7 +16,7 @@
         <div class="relative z-20 container mx-auto px-10">
 
             {{-- Menu --}}
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-5">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
 
                 @foreach ($foods as $f)
                     <div
@@ -27,8 +27,8 @@
                         <p class="text-p5-red font-bold text-xl mt-1">
                             ¥ {{ $f['price'] }}
                         </p>
-                        <p class="font-body text-p5-grey text-sm mt-2 leading-relaxed">
-                            {{ $f['desc'] }}
+                        <p class="font-body text-p5-grey text-sm mt-2 leading-relaxed italic">
+                            "{{ $f['desc'] }}"
                         </p>
                     </div>
                 @endforeach
@@ -36,12 +36,12 @@
             </div>
 
             {{-- Persona 5 Chatbox ref: http://www.p5generator.com/ --}}
-            <div class="w-full flex justify-center items-end mt-25">
+            <div class="w-full flex justify-center items-end mt-40">
 
                 <div class="relative w-full min-h-40 bg-p5-black border-t-4 border-p5-red p-5 shadow-2xl">
 
                     {{-- Sojiro  --}}
-                    <div class="absolute -top-20 left-10">
+                    <div class="absolute -top-25">
                         <img src="{{ asset('assets/images/sojiro.png') }}" class="w-32 h-32 object-contain"
                             alt="Sojiro Sakura">
                     </div>
@@ -55,7 +55,7 @@
 
                         {{-- Dialogue --}}
                         <div class="text-p5-white text-xl md:text-2xl font-body italic leading-relaxed">
-                            "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+                            "Take your time. Good coffee and good curry can't be rushed."
                         </div>
                     </div>
                 </div>

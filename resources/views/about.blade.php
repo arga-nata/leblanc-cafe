@@ -7,7 +7,8 @@
 
         {{-- Leblanc Background --}}
         <div class="fixed inset-0 z-0">
-            <img src="{{ asset('assets/images/coba.gif') }}" class="w-full h-full object-cover" alt="Leblanc Background">
+            <img src="{{ asset('assets/images/step-inside.jpg') }}" class="w-full h-full object-cover"
+                alt="Leblanc Background">
         </div>
 
         {{-- Brightness 60 --}}
@@ -58,7 +59,7 @@
                             by</span>
                         <div class="text-sm font-body text-p5-grey">
                             <span class="text-p5-white font-bold">{{ $student['nama'] }}</span>
-                            <span class="mx-2 text-p5-dark-red">•</span>
+                            <span class="mx-2 text-p5-dark-red">|</span>
                             {{ $student['nim'] }}
                         </div>
                         <div class="text-[11px] text-p5-grey/60">
