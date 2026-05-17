@@ -1,6 +1,6 @@
 <x-layout>
     <x-slot:judul>
-        About the Café
+        {{ $title }}
     </x-slot:judul>
 
     <div class="relative min-h-screen flex flex-col py-24">

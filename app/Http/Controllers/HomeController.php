@@ -8,8 +8,8 @@ class HomeController extends Controller
 {
     public function index()
     {
-        return view('home', [
-            'title' => 'Welcome to Leblanc'
-        ]);
+        $title = 'A Quiet Corner';
+        return view('home', compact('title'));
+
     }
 }

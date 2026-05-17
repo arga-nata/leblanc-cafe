@@ -8,6 +8,8 @@ class AboutController extends Controller
 {
     public function index()
     {
+        $title = 'About the Café';
+
         $sojiro = [
             [
                 'name' => 'Café Leblanc',
@@ -26,6 +28,6 @@ class AboutController extends Controller
             'matakuliah' => 'Pemrograman Web Lanjut',
             'framework' => 'Laravel 13 & Tailwind CSS',
         ];
-        return view('about', compact('sojiro', 'student'));
+        return view('about', compact('sojiro', 'student', 'title'));
     }
 }

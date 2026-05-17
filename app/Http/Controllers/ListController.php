@@ -8,6 +8,8 @@ class ListController extends Controller
 {
     public function index()
     {
+        $title = 'Community';
+
         $list = [
             [
                 'name' => 'Sojiro Sakura',
@@ -74,6 +76,6 @@ class ListController extends Controller
             ],
         ];
 
-        return view('list', compact('list'));
+        return view('list', compact('list', 'title'));
     }
 }

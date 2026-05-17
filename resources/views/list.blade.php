@@ -1,6 +1,6 @@
     <x-layout>
         <x-slot:judul>
-            The Regulars
+            {{ $title }}
         </x-slot:judul>
 
         <div class="relative min-h-screen flex flex-col py-24">

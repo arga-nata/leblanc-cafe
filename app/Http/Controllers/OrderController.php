@@ -8,6 +8,8 @@ class OrderController extends Controller
 {
     public function index()
     {
+        $title = 'Order Menu';
+
         $foods = [
             [
                 'id' => 1,
@@ -60,6 +62,6 @@ class OrderController extends Controller
             ],
         ];
 
-        return view('order', compact('foods'));
+        return view('order', compact('foods', 'title'));
     }
 }
