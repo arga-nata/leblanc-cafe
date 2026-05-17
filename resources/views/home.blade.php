@@ -1,13 +1,13 @@
 <x-layout>
     <x-slot:judul>
-        Café Leblanc: A Quiet Corner
+        A Quiet Corner
     </x-slot:judul>
 
     <div class="relative min-h-screen flex flex-col py-24">
 
         {{-- Leblanc Background --}}
         <div class="fixed inset-0 z-0">
-            <img src="{{ asset('assets/images/leblanc-bg.jpg') }}" class="w-full h-full object-cover"
+            <img src="{{ asset('assets/images/step-inside.jpg') }}" class="w-full h-full object-cover"
                 alt="Leblanc Background">
         </div>
 
@@ -16,7 +16,7 @@
 
         {{-- Banner? --}}
         <div class="relative z-20 flex flex-col px-10 max-w-4xl">
-            <h1 class="font-heading text-6xl text-p5-white uppercase tracking-tighter">
+            <h1 class="font-heading text-5xl text-p5-white uppercase tracking-tighter">
                 Welcome to Café <span class="text-p5-red">Leblanc</span>
             </h1>
 
@@ -33,8 +33,86 @@
             </div>
         </div>
 
-        {{-- WIP --}}
-        <div class="mt-32"></div>
+        {{-- Persona 5 Chatbox ref: http://www.p5generator.com/ --}}
+        <div class="w-full flex justify-center items-end mt-40 mx-auto px-10">
+
+            <div class="relative w-full min-h-40 bg-p5-black border-t-4 border-p5-red p-5 shadow-2xl">
+
+                {{-- Morgana  --}}
+                <div class="absolute -top-25 z-10">
+                    <img src="{{ asset('assets/images/morgana.png') }}" class="w-32 h-32 object-contain" alt="Morgana">
+                </div>
+
+                <div class="flex flex-col md:flex-row items-start gap-5 relative z-10">
+                    {{-- Name --}}
+                    <div
+                        class="bg-p5-red text-white px-4 py-1 font-heading uppercase italic font-bold text-sm tracking-widest shadow-p5">
+                        Morgana
+                    </div>
+
+                    {{-- Dialogue --}}
+                    <div class="text-p5-white text-xl md:text-2xl font-body italic leading-relaxed">
+                        "The perfect place to relax and plan our next heist... <br>
+                        Though I'd prefer some high-quality sushi over coffee right now, don't you think?"
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        {{-- Down --}}
+        <div class="relative z-20 container mx-auto px-10 mt-20">
+
+            <div class="text-center mb-16">
+                <h2 class="font-heading text-3xl text-white uppercase tracking-widest">
+                    The Soul of <span class="text-p5-red">Leblanc</span>
+                </h2>
+                <div class="h-1 w-50 bg-p5-red mx-auto mt-2"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+                <div
+                    class="bg-p5-black/60 border-t-2 border-p5-red p-8 shadow-xl transition-all duration-300 hover:bg-p5-black/80">
+                    <div class="text-p5-red text-4xl mb-4">
+                        <iconify-icon icon="mdi:music-note" class="w-10 h-10"></iconify-icon>
+                    </div>
+                    <h3 class="font-heading text-white text-xl uppercase mb-3">C</h3>
+                    <p class="font-body text-p5-grey text-sm leading-relaxed italic">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum a, minus corporis ut repudiandae
+                        sint natus. Ipsam corrupti, esse nisi suscipit possimus illum molestias. Culpa et rerum harum
+                        veniam laborum!
+                    </p>
+                </div>
+
+                <div
+                    class="bg-p5-black/60 border-t-2 border-p5-red p-8 shadow-xl transition-all duration-300 hover:bg-p5-black/80">
+                    <div class="text-p5-red text-4xl mb-4">
+                        <iconify-icon icon="mdi:music-note" class="w-10 h-10"></iconify-icon>
+                    </div>
+                    <h3 class="font-heading text-white text-xl uppercase mb-3">C</h3>
+                    <p class="font-body text-p5-grey text-sm leading-relaxed italic">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum a, minus corporis ut repudiandae
+                        sint natus. Ipsam corrupti, esse nisi suscipit possimus illum molestias. Culpa et rerum harum
+                        veniam laborum!
+                    </p>
+                </div>
+
+                <div
+                    class="bg-p5-black/60 border-t-2 border-p5-red p-8 shadow-xl transition-all duration-300 hover:bg-p5-black/80">
+                    <div class="text-p5-red text-4xl mb-4">
+                        <iconify-icon icon="mdi:music-note" class="w-10 h-10"></iconify-icon>
+                    </div>
+                    <h3 class="font-heading text-white text-xl uppercase mb-3">C</h3>
+                    <p class="font-body text-p5-grey text-sm leading-relaxed italic">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum a, minus corporis ut repudiandae
+                        sint natus. Ipsam corrupti, esse nisi suscipit possimus illum molestias. Culpa et rerum harum
+                        veniam laborum!
+                    </p>
+                </div>
+
+            </div>
+        </div>
 
     </div>
 </x-layout>

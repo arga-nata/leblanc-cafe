@@ -17,6 +17,15 @@ class AboutController extends Controller
                 'description' => 'A cozy, hidden sanctuary for those seeking comfort and a warm cup of coffee. Known for its mysterious atmosphere and the best curry in town.'
             ]
         ];
-        return view('about', compact('sojiro'));
+
+        $student = [
+            'title' => 'About the Café',
+            'nama' => 'Handika Rado Arganata',
+            'nim' => '24104410051',
+            'prodi' => 'Teknik Informatika',
+            'matakuliah' => 'Pemrograman Web Lanjut',
+            'framework' => 'Laravel 13 & Tailwind CSS',
+        ];
+        return view('about', compact('sojiro', 'student'));
     }
 }

@@ -51,6 +51,22 @@
                     </div>
                 @endforeach
 
+                {{-- My Profile --}}
+                <div class="mt-10 pt-6 border-t border-p5-dark-red">
+                    <div class="flex flex-col gap-1">
+                        <span class="text-p5-red font-bold uppercase text-[10px] tracking-widest opacity-70">Developed
+                            by</span>
+                        <div class="text-sm font-body text-p5-grey">
+                            <span class="text-p5-white font-bold">{{ $student['nama'] }}</span>
+                            <span class="mx-2 text-p5-dark-red">•</span>
+                            {{ $student['nim'] }}
+                        </div>
+                        <div class="text-[11px] text-p5-grey/60">
+                            {{ $student['prodi'] }} | {{ $student['matakuliah'] }} | {{ $student['framework'] }}
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
