@@ -21,7 +21,7 @@
             <x-nav-link href="/list" :active="request()->is('list')">
                 Community
             </x-nav-link>
-            <x-nav-link href="/order" :active="request()->is('order')">
+            <x-nav-link href="/order" :active="request()->is('order*')">
                 Order
             </x-nav-link>
             <x-nav-link href="/about" :active="request()->is('about')">

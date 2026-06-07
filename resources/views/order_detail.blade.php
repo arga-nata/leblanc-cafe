@@ -15,26 +15,20 @@
 
         <div class="relative z-20 container mx-auto px-10">
 
-            {{-- Menu --}}
-            <div class="grid grid-cols-4 gap-5">
-
-                @foreach ($foods as $f)
-                    <a href="/order/{{ $f['slug'] }}">
-                        <div
-                            class="bg-p5-black/60 border-l-4 border-p5-red p-5 shadow-xl hover:bg-p5-black/80 transition-all duration-300 cursor-pointer">
-                            <h2 class="font-heading text-white text-2xl uppercase">
-                                {{ $f['name'] }}
-                            </h2>
-                            <p class="text-p5-red font-bold text-xl mt-1">
-                                ¥ {{ $f['price'] }}
-                            </p>
-                            <p class="font-body text-p5-grey text-sm mt-2 leading-relaxed italic">
-                                "{{ Str::limit($f['desc'], 50) }}"
-                            </p>
-                        </div>
-                    </a>
-                @endforeach
-
+            <div class="bg-p5-black/60 border-l-4 border-p5-red p-10 shadow-xl">
+                <h2 class="font-heading text-white text-4xl uppercase">
+                    {{ $food['name'] }}
+                </h2>
+                <p class="text-p5-red font-bold text-2xl mt-2">
+                    ¥ {{ $food['price'] }}
+                </p>
+                <p class="font-body text-p5-grey text-lg mt-5 leading-relaxed italic">
+                    {{ $food['desc'] }}
+                </p>
+                <a href="/order"
+                    class="bg-p5-black/60 border-2 border-p5-red text-p5-white font-black px-8 py-4 text-xl uppercase tracking-widest shadow-p5 inline-block backdrop-blur-sm hover:bg-p5-red transition-all duration-300 mt-5">
+                    Back to Menu
+                </a>
             </div>
 
             {{-- Persona 5 Chatbox ref: http://www.p5generator.com/ --}}
